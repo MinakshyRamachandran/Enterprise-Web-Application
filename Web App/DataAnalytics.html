@@ -1,0 +1,191 @@
+ <html><head >
+ <meta http-equiv='Content-Type' content='text/html; charset=utf-8' / >
+ <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' / >
+ <title>Falcon</title >
+ <link rel='shortcut icon' href='images/icon.jpg'/ >
+ <link rel='stylesheet' href='styles.css' type='text/css' / >
+ <script>
+ function addProjection(){
+	var e =document.getElementById("ddlProjection");
+	document.getElementById("txtProjectList").value = document.getElementById("txtProjectList").value +  e.options[e.selectedIndex].value +";"
+ }
+ function addFilter(){
+	var e =document.getElementById("ddlFilter");
+	document.getElementById("field").value = e.options[e.selectedIndex].value
+	e =document.getElementById("ddlOperator");
+	document.getElementById("filter").value = e.options[e.selectedIndex].value
+	document.getElementById("filterMessage").value = "Filter Applied";
+ }
+ function addSort(){
+	var e =document.getElementById("ddlSort");
+	document.getElementById("sortField").value = e.options[e.selectedIndex].value
+	e =document.getElementById("ddlSortType");
+	document.getElementById("sortType").value = e.options[e.selectedIndex].value
+	document.getElementById("sortMessage").value = "Sort Applied";
+ }
+ </script>
+ </head >
+ 
+	 <body >
+	 
+		 <div id='container' >
+ <header >
+ <h1><a href='/'>Falcon</a></h1 >
+<h6><right>Just Get it ! Move with it !</right></h6>
+ </header >
+ <nav >
+ <ul >
+ <li  class=''><a href='home'>Home</a></li >
+ <li class=''><a href='tees'>T Shirts</a></li >
+  <li class=''><a href='pants'>Pants</a></li >
+ <li class=''><a href='shorts'>Shorts</a></li >
+ <li class=''><a href='Shirts'>Shirts</a></li >
+ <li class=''><a href='suits'>Suit</a></li >
+<li class=''><a href='DataAnalytics.html'>Data Analytics</a></li >
+<li class=''><a href='Reports.html'>Reports</a></li >
+ 
+
+ </div >
+ <p align="center">
+			<table style="width:50%">
+			<form  method = 'post' action = 'dataAnalytics'>
+				<tr>
+					<td> Project Fields </td>
+					<td>
+						<select id="ddlProjection">
+							<option data-field='productMN'data-displayname='productMN' value='productMN'>productModelName </option>
+							<option data-field='productC'data-displayname='productC' value='productC'>productCategory </option>
+							<option data-field='productId'data-displayname='productId' value='productId'>productId </option>
+							<option data-field='productP'data-displayname='productP' value='productP'>productPrice </option>
+							<option data-field='productRN'data-displayname='productRN' value='productRN'>productRetailName </option>
+							<option data-field='productRZ'data-displayname='productRZ' value='productRZ'>productRetailZip </option>
+							<option data-field='productRC'data-displayname='productRC' value='productRC'>productRetailCity </option>
+							<option data-field='productRS'data-displayname='productRS' value='productRS'>productRetailState </option>
+							<option data-field='productOS'data-displayname='productOS' value='productOS'>productOnSale </option>
+							<option data-field='productMrN'data-displayname='productMrN' value='productMrN'>productManufactureName </option>
+							<option data-field='productMR'data-displayname='productMR' value='productMR'>productManufactureRebate </option>
+							<option data-field='productRvU'data-displayname='productRvU' value='productRvU'>productReviewerUser </option>
+							<option data-field='productRvA'data-displayname='productRvA' value='productRvA'>productReviewerAge </option>
+							<option data-field='productRvG'data-displayname='productRvG' value='productRvG'>productReviewerGender </option>
+							<option data-field='productRvO'data-displayname='productRvO' value='productRvO'>productReviewerOccupation </option>
+							<option data-field='productRvD'data-displayname='productRvD' value='productRvD'>productReviewerDate </option>
+							<option data-field='productRvS'data-displayname='productRvS' value='productRvS'>productReviewerSubject </option>
+							<option data-field='productRvB'data-displayname='productRvB' value='productRvB'>productReviewerContent </option>
+							<option data-field='productRvR'data-displayname='productRvR' value='productRvR'>productReviewerRating </option>
+						</select>
+					</td>
+					<td>
+						<input type="button" name="btnAddProjection" onclick="addProjection();" value="Project"/>
+					</td>
+					<td style="width:50%">
+						<input type="text" readonly id="txtProjectList" name="txtProjectList" style="width:100%"/>
+					</td>
+				</tr>
+				<tr>				
+					<table caption="Filter">
+						<caption style="color:black;font-weight:bold;">Filter</caption>
+						<tr>
+							<td>
+								<select id="ddlFilter">
+									<option data-field='productMN'data-displayname='productMN' value='productMN'>productModelName </option>
+							<option data-field='productC'data-displayname='productC' value='productC'>productCategory </option>
+							<option data-field='productId'data-displayname='productId' value='productId'>productId </option>
+							<option data-field='productP'data-displayname='productP' value='productP'>productPrice </option>
+							<option data-field='productRN'data-displayname='productRN' value='productRN'>productRetailName </option>
+							<option data-field='productRZ'data-displayname='productRZ' value='productRZ'>productRetailZip </option>
+							<option data-field='productRC'data-displayname='productRC' value='productRC'>productRetailCity </option>
+							<option data-field='productRS'data-displayname='productRS' value='productRS'>productRetailState </option>
+							<option data-field='productOS'data-displayname='productOS' value='productOS'>productOnSale </option>
+							<option data-field='productMrN'data-displayname='productMrN' value='productMrN'>productManufactureName </option>
+							<option data-field='productMR'data-displayname='productMR' value='productMR'>productManufactureRebate </option>
+							<option data-field='productRvU'data-displayname='productRvU' value='productRvU'>productReviewerUser </option>
+							<option data-field='productRvA'data-displayname='productRvA' value='productRvA'>productReviewerAge </option>
+							<option data-field='productRvG'data-displayname='productRvG' value='productRvG'>productReviewerGender </option>
+							<option data-field='productRvO'data-displayname='productRvO' value='productRvO'>productReviewerOccupation </option>
+							<option data-field='productRvD'data-displayname='productRvD' value='productRvD'>productReviewerDate </option>
+							<option data-field='productRvS'data-displayname='productRvS' value='productRvS'>productReviewerSubject </option>
+							<option data-field='productRvB'data-displayname='productRvB' value='productRvB'>productReviewerContent </option>
+							<option data-field='productRvR'data-displayname='productRvR' value='productRvR'>productReviewerRating </option>
+								</select>
+							</td>
+							<td>
+								<select id="ddlOperator">
+									<option value="equal">Equals</option>
+									<option value="notequal">Not Equals</option>
+									<option value="greaterthan">Greater Than</option>
+								</select>
+							</td>
+							<td>
+								<input type="text" name="filterValue" id="txtFilterValue"/>
+							</td>
+							<td>
+								<input type="button" name="btnAddFilter" onclick="addFilter();" value="Add"/>
+							</td>
+							<td>
+								<input type="text" readonly value="No Filter" id="filterMessage"/>
+								<input type="hidden" name="field" id="field"/>
+								<input type="hidden" name="filter" id="filter"/>
+							</td>
+						</tr>
+					</table>
+				</tr>
+				<tr>
+					<table caption="Sort">
+						<caption style="color:black;font-weight:bold;">Sort</caption>
+						<tr>
+							<td>
+								<select id="ddlSort">
+									<option data-field='productMN'data-displayname='productMN' value='productMN'>productModelName </option>
+							<option data-field='productC'data-displayname='productCategory' value='productC'>productCategory </option>
+							<option data-field='productId'data-displayname='productId' value='productId'>productId </option>
+							<option data-field='productP'data-displayname='productP' value='productP'>productPrice </option>
+							<option data-field='productRN'data-displayname='productRN' value='productRN'>productRetailName </option>
+							<option data-field='productRZ'data-displayname='productRZ' value='productRZ'>productRetailZip </option>
+							<option data-field='productRC'data-displayname='productRC' value='productRC'>productRetailCity </option>
+							<option data-field='productRS'data-displayname='productRS' value='productRS'>productRetailState </option>
+							<option data-field='productOS'data-displayname='productOS' value='productOS'>productOnSale </option>
+							<option data-field='productMrN'data-displayname='productMrN' value='productMrN'>productManufactureName </option>
+							<option data-field='productMR'data-displayname='productMR' value='productMR'>productManufactureRebate </option>
+							<option data-field='productRvU'data-displayname='productRvU' value='productRvU'>productReviewerUser </option>
+							<option data-field='productRvA'data-displayname='productRvA' value='productRvA'>productReviewerAge </option>
+							<option data-field='productRvG'data-displayname='productRvG' value='productRvG'>productReviewerGender </option>
+							<option data-field='productRvO'data-displayname='productRvO' value='productRvO'>productReviewerOccupation </option>
+							<option data-field='productRvD'data-displayname='productRvD' value='productRvD'>productReviewerDate </option>
+							<option data-field='productRvS'data-displayname='productRvS' value='productRvS'>productReviewerSubject </option>
+							<option data-field='productRvB'data-displayname='productRvB' value='productRvB'>productReviewerContent </option>
+							<option data-field='productRvR'data-displayname='productRvR' value='productRvR'>productReviewerRating </option>
+								</select>
+							</td>
+							<td>
+								<select id="ddlSortType">
+									<option value="asc">Asc</option>
+									<option value="desc">Desc</option>									
+								</select>
+							</td>
+							<td>
+								<input type="button" name="btnAddSort" onclick="addSort();" value="Add"/>
+							</td>
+							<td>
+								<input type="text" readonly value="Default Sort" id="sortMessage"/>
+								<input type="hidden" name="sortField" id="sortField"/>
+								<input type="hidden" name="sortType" id="sortType"/>
+							</td>
+						</tr>
+					</table>
+				</tr>
+				<tr>
+					<td style="font-weight:bold">
+						<caption style="color:black;font-weight:bold;">Top</caption>
+					</td>	
+					<td>
+						<input type="number" name="limit" value="0" min="0"/>
+					</td>
+				</tr>
+			</table>
+			
+                <input  type = 'submit' name = 'GetResult' value = 'GetResult'/>
+            </form>
+			</p>
+		</div>
+	</body>
+</html>

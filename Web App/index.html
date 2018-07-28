@@ -1,0 +1,132 @@
+ <html><head >
+ <meta http-equiv='Content-Type' content='text/html; charset=utf-8' / >
+ <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' / >
+ <title>Falcon</title >
+ <link rel='shortcut icon' href='images/icon.jpg'/ >
+ <link rel='stylesheet' href='styles.css' type='text/css' / >
+ <script type="text/javascript" src="js/ajaxscript.js"></script>
+ <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="js/blowup.js"></script>
+
+ <style>
+.autosuggestion 
+input[type=text] 
+
+{
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+	font-weight: normal; color: #3399FF; 
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.autosuggestion
+input[type=text]:focus 
+{
+    width: 100%;
+}
+
+</style>
+ </head >
+ <body onload="initialize()">
+ 
+ <div id='container' >
+  <script>
+ $(document).ready(function () {
+    $("img").blowup();
+})
+</script>
+ <header >
+ <h1><a href='/'>Falcon</a></h1 >
+<h6><right>Just Get it ! Move with it !</right></h6>
+<div class="autosuggestion">
+  <form id="searchbox" action="" >
+   <input  id="search" class="ajax_input" type="text" placeholder="Search for Products here..." onkeyup="dofill(this.value)" />
+
+     <table id="complete-table" class="gridtable"></table>
+
+ <input id="submit" type="submit"  value="Go" class="gobutton"/>
+
+ </form>
+ </div>
+
+ </header >
+
+ <nav >
+
+ <ul >
+ 
+ <li  class=''><a href='home'>Home</a></li >
+ <li class=''><a href='tees'>T Shirts</a></li >
+  <li class=''><a href='pants'>Pants</a></li >
+ <li class=''><a href='shorts'>Shorts</a></li >
+ <li class=''><a href='Shirts'>Shirts</a></li >
+ <li class=''><a href='suits'>Suit</a></li >
+ <li class=''><a href='dealmatch'>Deal Matches</a></li >
+ </ul>
+ </nav>
+ </br>
+ <aside class='sidebar'>
+<ul>
+<li>
+<h4>Products</h4>
+<ul>
+<li><a href='pants'>Pants</a></li>
+<li><a href='tees'>T Shirts</a></li>
+<li><a href='shorts'>Shorts</a></li>
+<li><a href='Shirts'>Shirts</a></li>
+<li><a href='suits'>Suit</a></li>
+<li><a href='trending'> Now Trending</a></li>
+</ul>
+</li>
+<li>
+<h4>About us</h4>
+<p>We are a leading seller of Mens Apparels in USA<p>
+</li>
+<li><a href='index.html'> Contact Us</a></li>
+</ul></aside>
+
+<style>
+label{
+	
+    display:inline-block;
+    width:150px;
+}
+</style>
+</br>
+</br>
+<form action="mail" method="post" align="center-left" >
+ <label> To: </label><input type="text" name="to" value="snamachivayan@hawk.iit.edu" style="width:200px" disabled="disabled"/><br/></br>
+ <label> Subject:</label><input type="text" name="subject" style="width:200px"  /><br/></br>
+  <label>Message:</label><textarea rows="5" cols="35" name="message" /></textarea><br/></br>
+  <label>Your Email id:</label><input type="text" name="user" style="width:200px" ><br/></br>
+  <label>Password: </label><input type="password" name="pass" style="width:200px"  /><br/></br>
+  <input type="submit" value="send" style="width:100px" />
+</form>
+
+<div class='clear'></div>
+
+<footer>
+<div class='footer-content'>
+<div class='clear'></div>
+</div>
+<div class='footer-bottom'>
+<p>&copy Falcon @ 2017 </p>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
+
+</br>
+</br>
+</br>

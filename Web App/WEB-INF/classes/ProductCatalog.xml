@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <product id="SMW991">
+        <imageUrl>images/Iwollence Ripped short.jpg</imageUrl>
+        <name>Iwollence Ripped short</name>
+        <price>25</price>
+		<description>Hipster Straight fit Denim shorts,Fashionable Ripped Holes Denim shorts </description>
+		<display_under>sHort</display_under>
+		<discounAmt>5.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/City Hunter cap.jpg</aimageUrl>
+				<aname>City Hunter cap</aname>
+				<aId>A0011</aId>
+				<aprice>13</aprice>
+				<adescription>Cap</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Ingear Flip Flop.jpg</aimageUrl>
+				<aname>Ingear Flip Flop</aname>
+				<aId>A0012</aId>
+				<aprice>11</aprice>
+				<adescription>Perfect For The Beach</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Joyebuy glooves.jpg</aimageUrl>
+				<aname>Joyebuy glooves</aname>
+				<aId>A0013</aId>
+				<aprice>12</aprice>
+				<adescription>Wool and Acrylic.very comfortable and very soft to wear.And durable materials</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMW992">
+        <imageUrl>images/Zhang's cotton classic short.jpg</imageUrl>
+        <name>Zhang's cotton classic short</name>
+        <price>18</price>
+		<description>Adjustable internal drawstring for a custom fit,Casual, comfortable,fashionable design</description>
+		<display_under>sHort</display_under>
+		<discounAmt>1.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+    <accessories>
+        <accessory>
+				<aimageUrl>images/City Hunter cap.jpg</aimageUrl>
+				<aname>City Hunter cap</aname>
+				<aId>A0011</aId>
+				<aprice>13</aprice>
+				<adescription>Cap</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Ingear Flip Flop.jpg</aimageUrl>
+				<aname>Ingear Flip Flop</aname>
+				<aId>A0012</aId>
+				<aprice>11</aprice>
+				<adescription>Perfect For The Beach</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Joyebuy glooves.jpg</aimageUrl>
+				<aname>Joyebuy glooves</aname>
+				<aId>A0013</aId>
+				<aprice>12</aprice>
+				<adescription>Wool and Acrylic.very comfortable and very soft to wear.And durable materials</adescription>
+			</accessory>
+    </accessories>
+    </product>
+	<product id="SMW993">
+                <imageUrl>images/Balista Slim Fit Shorts.jpg</imageUrl>
+        <name>Balista Slim Fit Shorts</name>
+        <price>17</price>
+		<description>Made from cotton rich fabric with flat front and carefully stitched seams this Balista slim fit printed shorts is an essential pair for vacation days or any other days</description>
+		<display_under>sHort</display_under>
+		<discounAmt>2.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+         <accessories>
+            <accessory>
+				<aimageUrl>images/City Hunter cap.jpg</aimageUrl>
+				<aname>City Hunter cap</aname>
+				<aId>A0011</aId>
+				<aprice>13</aprice>
+				<adescription>Cap</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Ingear Flip Flop.jpg</aimageUrl>
+				<aname>Ingear Flip Flop</aname>
+				<aId>A0012</aId>
+				<aprice>11</aprice>
+				<adescription>Perfect For The Beach</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Joyebuy glooves.jpg</aimageUrl>
+				<aname>Joyebuy glooves</aname>
+				<aId>A0013</aId>
+				<aprice>12</aprice>
+				<adescription>Wool and Acrylic.very comfortable and very soft to wear.And durable materials</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMW994">
+        <imageUrl>images/Unionbay Survivor shorts.jpg</imageUrl>
+        <name>Unionbay Survivor shorts.jpg</name>
+        <price>16</price>
+		<description>Cargo short in vintage-wash twill featuring oversize pockets and D-ring belt</description>
+		<display_under>sHort</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+         <accessories>
+            <accessory>
+				<aimageUrl>images/City Hunter cap.jpg</aimageUrl>
+				<aname>City Hunter cap</aname>
+				<aId>A0011</aId>
+				<aprice>13</aprice>
+				<adescription>Cap</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Ingear Flip Flop.jpg</aimageUrl>
+				<aname>Ingear Flip Flop</aname>
+				<aId>A0012</aId>
+				<aprice>11</aprice>
+				<adescription>Perfect For The Beach</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Joyebuy glooves.jpg</aimageUrl>
+				<aname>Joyebuy glooves</aname>
+				<aId>A0013</aId>
+				<aprice>12</aprice>
+				<adescription>Wool and Acrylic.very comfortable and very soft to wear.And durable materials</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMW995">
+        <imageUrl>images/Champion's jersery short.jpg</imageUrl>
+        <name>Champion's jersery short</name>
+        <price>16</price>
+		<description>Short featuring logo at left hem and elastic waistband with adjustable internal drawstring</description>
+		<display_under>sHort</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+         <accessories>
+            <accessory>
+				<aimageUrl>images/City Hunter cap.jpg</aimageUrl>
+				<aname>City Hunter cap</aname>
+				<aId>A0011</aId>
+				<aprice>13</aprice>
+				<adescription>Cap</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Ingear Flip Flop.jpg</aimageUrl>
+				<aname>Ingear Flip Flop</aname>
+				<aId>A0012</aId>
+				<aprice>11</aprice>
+				<adescription>Perfect For The Beach</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Joyebuy glooves.jpg</aimageUrl>
+				<aname>Joyebuy glooves</aname>
+				<aId>A0013</aId>
+				<aprice>12</aprice>
+				<adescription>Wool and Acrylic.very comfortable and very soft to wear.And durable materials</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMW996">
+        <imageUrl>images/Champion's long mesh short.jpg</imageUrl>
+        <name>Champion's long mesh short.jpg</name>
+        <price>22</price>
+		<description>Lightweight breathable mesh short featuring logo at left hem and covered elastic waistband</description>
+		<display_under>sHort</display_under>
+		<discounAmt>5.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+         <accessories>
+            <accessory>
+				<aimageUrl>images/City Hunter cap.jpg</aimageUrl>
+				<aname>City Hunter cap</aname>
+				<aId>A0011</aId>
+				<aprice>13</aprice>
+				<adescription>Cap</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Ingear Flip Flop.jpg</aimageUrl>
+				<aname>Ingear Flip Flop</aname>
+				<aId>A0012</aId>
+				<aprice>11</aprice>
+				<adescription>Perfect For The Beach</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Joyebuy glooves.jpg</aimageUrl>
+				<aname>Joyebuy glooves</aname>
+				<aId>A0013</aId>
+				<aprice>12</aprice>
+				<adescription>Wool and Acrylic.very comfortable and very soft to wear.And durable materials</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMW997">
+        <imageUrl>images/Unionbay cordova short.jpg</imageUrl>
+        <name>Unionbay cordova short.jpg</name>
+        <price>29</price>
+		<description>Camo-print cargo short featuring adjustable D-ring belt and flap back pockets</description>
+		<display_under>sHort</display_under>
+		<discounAmt>10.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+         <accessories>
+            <accessory>
+				<aimageUrl>images/City Hunter cap.jpg</aimageUrl>
+				<aname>City Hunter cap</aname>
+				<aId>A0011</aId>
+				<aprice>13</aprice>
+				<adescription>Cap</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Ingear Flip Flop.jpg</aimageUrl>
+				<aname>Ingear Flip Flop</aname>
+				<aId>A0012</aId>
+				<aprice>11</aprice>
+				<adescription>Perfect For The Beach</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Joyebuy glooves.jpg</aimageUrl>
+				<aname>Joyebuy glooves</aname>
+				<aId>A0013</aId>
+				<aprice>12</aprice>
+				<adescription>Wool and Acrylic.very comfortable and very soft to wear.And durable materials</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMW998">
+        <imageUrl>images/Dockers classic fit short.jpg</imageUrl>
+        <name>Dockers classic fit short</name>
+        <price>39</price>
+		<description>Flat-front short featuring side hand pockets and rear button-through welt pockets</description>
+		<display_under>sHort</display_under>
+		<discounAmt>12.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+         <accessories>
+            <accessory>
+				<aimageUrl>images/City Hunter cap.jpg</aimageUrl>
+				<aname>City Hunter cap</aname>
+				<aId>A0011</aId>
+				<aprice>13</aprice>
+				<adescription>Cap</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Ingear Flip Flop.jpg</aimageUrl>
+				<aname>Ingear Flip Flop</aname>
+				<aId>A0012</aId>
+				<aprice>11</aprice>
+				<adescription>Perfect For The Beach</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Joyebuy glooves.jpg</aimageUrl>
+				<aname>Joyebuy glooves</aname>
+				<aId>A0013</aId>
+				<aprice>12</aprice>
+				<adescription>Wool and Acrylic.very comfortable and very soft to wear.And durable materials</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMW999">
+        <imageUrl>images/Under Armour Raid shorts.jpg</imageUrl>
+        <name>Under Armour Raid shorts</name>
+        <price>59</price>
+		<description>HeatGear fabric is ultra-soft smooth for extreme comfort with very little weight</description>
+		<display_under>sHort</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+		 <accessories>
+            <accessory>
+				<aimageUrl>images/City Hunter cap.jpg</aimageUrl>
+				<aname>City Hunter cap</aname>
+				<aId>A0011</aId>
+				<aprice>13</aprice>
+				<adescription>Cap</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Ingear Flip Flop.jpg</aimageUrl>
+				<aname>Ingear Flip Flop</aname>
+				<aId>A0012</aId>
+				<aprice>11</aprice>
+				<adescription>Perfect For The Beach</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Joyebuy glooves.jpg</aimageUrl>
+				<aname>Joyebuy glooves</aname>
+				<aId>A0013</aId>
+				<aprice>12</aprice>
+				<adescription>Wool and Acrylic.very comfortable and very soft to wear.And durable materials</adescription>
+			</accessory>
+        </accessories>
+    </product>
+
+	<product id="HAD91">
+        <imageUrl>images/Lilis Gray 3 pieces.jpg</imageUrl>
+        <name>Lilis Gray 3 pieces</name>
+        <price>49</price>
+		<description>One Button Blazer, Single Breasted,Peak lapel</description>
+		<display_under>SUit</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+       <accessories>
+            <accessory>
+				<aimageUrl>images/Mio Marino Shoes.jpg</aimageUrl>
+				<aname>Mio Marino Shoes</aname>
+				<aId>HAD001</aId>
+				<aprice>19</aprice>
+				<adescription>The Marino Avenue Dress Shoes are made of top grain genuine leather</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Secdtie Tie.jpg</aimageUrl>
+				<aname>Secdtie Tie</aname>
+				<aId>HAD002</aId>
+				<aprice>12</aprice>
+				<adescription>Add a heavy dose of swagger</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Insten cuffs.jpg</aimageUrl>
+				<aname>Insten cuffs</aname>
+				<aId>HAD003</aId>
+				<aprice>8</aprice>
+				<adescription>Easy to fasten, comfortable to wear</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="HAD92">
+        <imageUrl>images/George Bride Slim Fit 3pc suit.jpg</imageUrl>
+        <name>George Bride Slim Fit 3pc suit</name>
+        <price>79</price>
+		<description>Matching Slim Fit, Flat Front Trousers - Unhemmed bottoms allow you to customize the perfect pants length to your taste.</description>
+		<display_under>SUit</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Mio Marino Shoes.jpg</aimageUrl>
+				<aname>Mio Marino Shoes</aname>
+				<aId>HAD001</aId>
+				<aprice>19</aprice>
+				<adescription>The Marino Avenue Dress Shoes are made of top grain genuine leather</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Secdtie Tie.jpg</aimageUrl>
+				<aname>Secdtie Tie</aname>
+				<aId>HAD002</aId>
+				<aprice>12</aprice>
+				<adescription>Add a heavy dose of swagger</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Insten cuffs.jpg</aimageUrl>
+				<aname>Insten cuffs</aname>
+				<aId>HAD003</aId>
+				<aprice>8</aprice>
+				<adescription>Easy to fasten, comfortable to wear</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="HAD93">
+        <imageUrl>images/Mogu slim fit 3 pc.jpg</imageUrl>
+        <name>Mogu slim fit 3 pc</name>
+        <price>79</price>
+		<description>One Button Jacket Center Vent, Dry Clean Only</description>
+		<display_under>SUit</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Mio Marino Shoes.jpg</aimageUrl>
+				<aname>Mio Marino Shoes</aname>
+				<aId>HAD001</aId>
+				<aprice>19</aprice>
+				<adescription>The Marino Avenue Dress Shoes are made of top grain genuine leather</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Secdtie Tie.jpg</aimageUrl>
+				<aname>Secdtie Tie</aname>
+				<aId>HAD002</aId>
+				<aprice>12</aprice>
+				<adescription>Add a heavy dose of swagger</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Insten cuffs.jpg</aimageUrl>
+				<aname>Insten cuffs</aname>
+				<aId>HAD003</aId>
+				<aprice>8</aprice>
+				<adescription>Easy to fasten, comfortable to wear</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="HAD94">
+        <imageUrl>images/Niuzi casual slim fit 3 pc.jpg</imageUrl>
+        <name>Niuzi casual slim fit 3 pc</name>
+        <price>55</price>
+		<description>The suit is slim fit,compared with normal style is slim figure.</description>
+		<display_under>SUit</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Mio Marino Shoes.jpg</aimageUrl>
+				<aname>Mio Marino Shoes</aname>
+				<aId>HAD001</aId>
+				<aprice>19</aprice>
+				<adescription>The Marino Avenue Dress Shoes are made of top grain genuine leather</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Secdtie Tie.jpg</aimageUrl>
+				<aname>Secdtie Tie</aname>
+				<aId>HAD002</aId>
+				<aprice>12</aprice>
+				<adescription>Add a heavy dose of swagger</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Insten cuffs.jpg</aimageUrl>
+				<aname>Insten cuffs</aname>
+				<aId>HAD003</aId>
+				<aprice>8</aprice>
+				<adescription>Easy to fasten, comfortable to wear</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="HAD95">
+        <imageUrl>images/Inflation 3pc suit.jpg</imageUrl>
+        <name>Inflation 3pc suit</name>
+        <price>39</price>
+		<description>This is a SLIM FIT suit which fits true to size but is cut differently than standard regular fit suits. </description>
+		<display_under>SUit</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+            <accessories>
+                        <accessory>
+				<aimageUrl>images/Mio Marino Shoes.jpg</aimageUrl>
+				<aname>Mio Marino Shoes</aname>
+				<aId>HAD001</aId>
+				<aprice>19</aprice>
+				<adescription>The Marino Avenue Dress Shoes are made of top grain genuine leather</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Secdtie Tie.jpg</aimageUrl>
+				<aname>Secdtie Tie</aname>
+				<aId>HAD002</aId>
+				<aprice>12</aprice>
+				<adescription>Add a heavy dose of swagger</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Insten cuffs.jpg</aimageUrl>
+				<aname>Insten cuffs</aname>
+				<aId>HAD003</aId>
+				<aprice>8</aprice>
+				<adescription>Easy to fasten, comfortable to wear</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="HAD96">
+        <imageUrl>images/Cofandy V neck sleeveless suit.jpg</imageUrl>
+        <name>Cofandy V neck sleeveless suit</name>
+        <price>35</price>
+		<description>Two real side pockets,one fake chest pocket;Adjustable back belt</description>
+		<display_under>SUit</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Mio Marino Shoes.jpg</aimageUrl>
+				<aname>Mio Marino Shoes</aname>
+				<aId>HAD001</aId>
+				<aprice>19</aprice>
+				<adescription>The Marino Avenue Dress Shoes are made of top grain genuine leather</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Secdtie Tie.jpg</aimageUrl>
+				<aname>Secdtie Tie</aname>
+				<aId>HAD002</aId>
+				<aprice>12</aprice>
+				<adescription>Add a heavy dose of swagger</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Insten cuffs.jpg</aimageUrl>
+				<aname>Insten cuffs</aname>
+				<aId>HAD003</aId>
+				<aprice>8</aprice>
+				<adescription>Easy to fasten, comfortable to wear</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="HAD97">
+        <imageUrl>images/CCXO 3pc suit.jpg</imageUrl>
+        <name>CCXO 3pc suit</name>
+        <price>69</price>
+		<description>Jacket: One Button, Two vent, Real pocket; Vest: four button, fake square pocket; Pants: Flat Front Pants, Adjusted Waist</description>
+		<display_under>SUit</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Mio Marino Shoes.jpg</aimageUrl>
+				<aname>Mio Marino Shoes</aname>
+				<aId>HAD001</aId>
+				<aprice>19</aprice>
+				<adescription>The Marino Avenue Dress Shoes are made of top grain genuine leather</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Secdtie Tie.jpg</aimageUrl>
+				<aname>Secdtie Tie</aname>
+				<aId>HAD002</aId>
+				<aprice>12</aprice>
+				<adescription>Add a heavy dose of swagger</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Insten cuffs.jpg</aimageUrl>
+				<aname>Insten cuffs</aname>
+				<aId>HAD003</aId>
+				<aprice>8</aprice>
+				<adescription>Easy to fasten, comfortable to wear</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="HAD98">
+        <imageUrl>images/Lilis Plaid Fit.jpg</imageUrl>
+        <name>Lilis Plaid Fit</name>
+        <price>75</price>
+		<description>Design:Two Button Blazer, Single Breasted,Notch lapel.Unique style, create stunning curves, make you more fashion, handsome</description>
+		<display_under>SUit</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Mio Marino Shoes.jpg</aimageUrl>
+				<aname>Mio Marino Shoes</aname>
+				<aId>HAD001</aId>
+				<aprice>19</aprice>
+				<adescription>The Marino Avenue Dress Shoes are made of top grain genuine leather</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Secdtie Tie.jpg</aimageUrl>
+				<aname>Secdtie Tie</aname>
+				<aId>HAD002</aId>
+				<aprice>12</aprice>
+				<adescription>Add a heavy dose of swagger</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Insten cuffs.jpg</aimageUrl>
+				<aname>Insten cuffs</aname>
+				<aId>HAD003</aId>
+				<aprice>8</aprice>
+				<adescription>Easy to fasten, comfortable to wear</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="HAD99">
+        <imageUrl>images/Sport Coat.jpg</imageUrl>
+        <name>Sport Coat</name>
+        <price>89</price>
+		<description>Jacket Coat Features Notched Lapel and 2-Button Closure</description>
+		<display_under>SUit</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Mio Marino Shoes.jpg</aimageUrl>
+				<aname>Mio Marino Shoes</aname>
+				<aId>HAD001</aId>
+				<aprice>19</aprice>
+				<adescription>The Marino Avenue Dress Shoes are made of top grain genuine leather</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Secdtie Tie.jpg</aimageUrl>
+				<aname>Secdtie Tie</aname>
+				<aId>HAD002</aId>
+				<aprice>12</aprice>
+				<adescription>Add a heavy dose of swagger</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Insten cuffs.jpg</aimageUrl>
+				<aname>Insten cuffs</aname>
+				<aId>HAD003</aId>
+				<aprice>8</aprice>
+				<adescription>Easy to fasten, comfortable to wear</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="HAD90">
+        <imageUrl>images/Fly Hawk 2pc suit.jpg</imageUrl>
+        <name>Fly Hawk 2pc suit.jpg</name>
+        <price>65</price>
+		<description>High quality material and exquisite workmanship: this slim fit solid business suit is made from cotton blend fabric.</description>
+		<display_under>SUit</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Mio Marino Shoes.jpg</aimageUrl>
+				<aname>Mio Marino Shoes</aname>
+				<aId>HAD001</aId>
+				<aprice>19</aprice>
+				<adescription>The Marino Avenue Dress Shoes are made of top grain genuine leather</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Secdtie Tie.jpg</aimageUrl>
+				<aname>Secdtie Tie</aname>
+				<aId>HAD002</aId>
+				<aprice>12</aprice>
+				<adescription>Add a heavy dose of swagger</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Insten cuffs.jpg</aimageUrl>
+				<aname>Insten cuffs</aname>
+				<aId>HAD003</aId>
+				<aprice>8</aprice>
+				<adescription>Easy to fasten, comfortable to wear</adescription>
+			</accessory>
+        </accessories>
+    </product>
+
+	<product id="LAP91">
+       <imageUrl>images/Calvin Klein Slim Fit.jpg</imageUrl>
+        <name>Calvin Klein Slim Fit</name>
+        <price>29</price>
+		<description>The Calvin Klein slim jean sits below the waist, slimmer fit through hip and thigh, extra narrow at ankle.</description>
+		<display_under>Pant</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Retro leather shoes.jpg</aimageUrl>
+				<aname>Retro leather shoes</aname>
+				<aId>L2221</aId>
+				<aprice>14</aprice>
+				<adescription>Natural rubber non-slip soles</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Wright socks.jpg</aimageUrl>
+				<aname>Wright socks</aname>
+				<aId>L2222</aId>
+				<aprice>6</aprice>
+				<adescription>Double layer construction coupled with the most technically advanced fibers</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Hide two row leather belt.jpg</aimageUrl>
+                <aname>Hide two row leather belt</aname>
+				<aId>L2223</aId>
+				<aprice>9</aprice>
+                <adescription>The belt is adorned with a classy brass buckle that shouts style and charm.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="LAP92">
+        <imageUrl>images/ZLZ Slim Fit Jeans.jpg</imageUrl>
+        <name>ZLZ Slim Fit Jeans</name>
+        <price>19</price>
+		<description>ZLZ Men's Skinny Stretchy Jeans with Special ZLZ Fashionable Designing Makes You Slim and More Confident.</description>
+		<display_under>Pant</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Retro leather shoes.jpg</aimageUrl>
+				<aname>Retro leather shoes</aname>
+				<aId>L2221</aId>
+				<aprice>14</aprice>
+				<adescription>Natural rubber non-slip soles</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Wright socks.jpg</aimageUrl>
+				<aname>Wright socks</aname>
+				<aId>L2222</aId>
+				<aprice>6</aprice>
+				<adescription>Double layer construction coupled with the most technically advanced fibers</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Hide two row leather belt.jpg</aimageUrl>
+                <aname>Hide two row leather belt</aname>
+				<aId>L2223</aId>
+				<aprice>9</aprice>
+                <adescription>The belt is adorned with a classy brass buckle that shouts style and charm.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="LAP93">
+        <imageUrl>images/Nitagut Ripped Slim.jpg</imageUrl>
+        <name>Nitagut Ripped Slim</name>
+        <price>10</price>
+		<description>Fashionable Ripped Holes Denim Jeans,Zipper deco</description>
+		<display_under>Pant</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Retro leather shoes.jpg</aimageUrl>
+				<aname>Retro leather shoes</aname>
+				<aId>L2221</aId>
+				<aprice>14</aprice>
+				<adescription>Natural rubber non-slip soles</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Wright socks.jpg</aimageUrl>
+				<aname>Wright socks</aname>
+				<aId>L2222</aId>
+				<aprice>6</aprice>
+				<adescription>Double layer construction coupled with the most technically advanced fibers</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Hide two row leather belt.jpg</aimageUrl>
+                <aname>Hide two row leather belt</aname>
+				<aId>L2223</aId>
+				<aprice>9</aprice>
+                <adescription>The belt is adorned with a classy brass buckle that shouts style and charm.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="LAP94">
+        <imageUrl>images/Dickies Regular Fit.jpg</imageUrl>
+        <name>Dickies Regular Fit</name>
+        <price>17</price>
+		<description>Dickies authentic work jean is built using 100% heavyweight cotton denim with classic 5-pocket styling. </description>
+		<display_under>Pant</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Retro leather shoes.jpg</aimageUrl>
+				<aname>Retro leather shoes</aname>
+				<aId>L2221</aId>
+				<aprice>14</aprice>
+				<adescription>Natural rubber non-slip soles</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Wright socks.jpg</aimageUrl>
+				<aname>Wright socks</aname>
+				<aId>L2222</aId>
+				<aprice>6</aprice>
+				<adescription>Double layer construction coupled with the most technically advanced fibers</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Hide two row leather belt.jpg</aimageUrl>
+                <aname>Hide two row leather belt</aname>
+				<aId>L2223</aId>
+				<aprice>9</aprice>
+                <adescription>The belt is adorned with a classy brass buckle that shouts style and charm.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="LAP96">
+        <imageUrl>images/Helix Slim Fit.jpg</imageUrl>
+        <name>Helix Slim Fit</name>
+        <price>29</price>
+		<description>Helix Slim Fit Bootcut Jeans have the timeless faded design with a comfortable material for a fit, feel and look that’s unmatched.</description>
+		<display_under>Pant</display_under>
+		<discounAmt>20.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Retro leather shoes.jpg</aimageUrl>
+				<aname>Retro leather shoes</aname>
+				<aId>L2221</aId>
+				<aprice>14</aprice>
+				<adescription>Natural rubber non-slip soles</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Wright socks.jpg</aimageUrl>
+				<aname>Wright socks</aname>
+				<aId>L2222</aId>
+				<aprice>6</aprice>
+				<adescription>Double layer construction coupled with the most technically advanced fibers</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Hide two row leather belt.jpg</aimageUrl>
+                <aname>Hide two row leather belt</aname>
+				<aId>L2223</aId>
+				<aprice>9</aprice>
+                <adescription>The belt is adorned with a classy brass buckle that shouts style and charm.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="LAP98">
+         <imageUrl>images/Levi's 501 Original-Fit Jeans.jpg</imageUrl>
+        <name>Levi's 501 Original-Fit Jeans</name>
+        <price>39</price>
+		<description>Straight-leg jean featuring five-pocket styling with signature arcuate stitching on rear pocket</description>
+		<display_under>Pant</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Retro leather shoes.jpg</aimageUrl>
+				<aname>Retro leather shoes</aname>
+				<aId>L2221</aId>
+				<aprice>14</aprice>
+				<adescription>Natural rubber non-slip soles</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Wright socks.jpg</aimageUrl>
+				<aname>Wright socks</aname>
+				<aId>L2222</aId>
+				<aprice>6</aprice>
+				<adescription>Double layer construction coupled with the most technically advanced fibers</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Hide two row leather belt.jpg</aimageUrl>
+                <aname>Hide two row leather belt</aname>
+				<aId>L2223</aId>
+				<aprice>9</aprice>
+                <adescription>The belt is adorned with a classy brass buckle that shouts style and charm.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="LAP99">
+         <imageUrl>images/Levi's 514 Staright Fit Jeans.jpg</imageUrl>
+        <name>Levi's 514 Staright Fit Jeans.jpg</name>
+        <price>36</price>
+		<description>The classic straight fit. Our 514 Straight Fit Jeans sit low on the waist and are generous through the seat and thigh with a straight leg. Best for athletic to medium builds. </description>
+		<display_under>Pant</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Retro leather shoes.jpg</aimageUrl>
+				<aname>Retro leather shoes</aname>
+				<aId>L2221</aId>
+				<aprice>14</aprice>
+				<adescription>Natural rubber non-slip soles</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Wright socks.jpg</aimageUrl>
+				<aname>Wright socks</aname>
+				<aId>L2222</aId>
+				<aprice>6</aprice>
+				<adescription>Double layer construction coupled with the most technically advanced fibers</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Hide two row leather belt.jpg</aimageUrl>
+                <aname>Hide two row leather belt</aname>
+				<aId>L2223</aId>
+				<aprice>9</aprice>
+                <adescription>The belt is adorned with a classy brass buckle that shouts style and charm.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="LAP95">
+         <imageUrl>images/Levi's 569 Loose Straight.jpg</imageUrl>
+        <name>Levi's 569 Loose Straight</name>
+        <price>31</price>
+		<description>Extra room through seat and thigh</description>
+		<display_under>Pant</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Retro leather shoes.jpg</aimageUrl>
+				<aname>Retro leather shoes</aname>
+				<aId>L2221</aId>
+				<aprice>14</aprice>
+				<adescription>Natural rubber non-slip soles</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Wright socks.jpg</aimageUrl>
+				<aname>Wright socks</aname>
+				<aId>L2222</aId>
+				<aprice>6</aprice>
+				<adescription>Double layer construction coupled with the most technically advanced fibers</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Hide two row leather belt.jpg</aimageUrl>
+                <aname>Hide two row leather belt</aname>
+				<aId>L2223</aId>
+				<aprice>9</aprice>
+                <adescription>The belt is adorned with a classy brass buckle that shouts style and charm.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+		<product id="LAP97">
+         <imageUrl>images/Wrangler Classic Regular Fit Jeans.jpg</imageUrl>
+        <name>Wrangler Classic Regular Fit Jeans</name>
+        <price>19</price>
+		<description>Classic straight-leg jean featuring five-pocket styling and logo patch at back waist</description>
+		<display_under>Pant</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Retro leather shoes.jpg</aimageUrl>
+				<aname>Retro leather shoes</aname>
+				<aId>L2221</aId>
+				<aprice>14</aprice>
+				<adescription>Natural rubber non-slip soles</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Wright socks.jpg</aimageUrl>
+				<aname>Wright socks</aname>
+				<aId>L2222</aId>
+				<aprice>6</aprice>
+				<adescription>Double layer construction coupled with the most technically advanced fibers</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Hide two row leather belt.jpg</aimageUrl>
+                <aname>Hide two row leather belt</aname>
+				<aId>L2223</aId>
+				<aprice>9</aprice>
+                <adescription>The belt is adorned with a classy brass buckle that shouts style and charm.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	
+	<product id="SMP91">
+        <imageUrl>images/Columbia Cascade Ridge Bonded Softshell Jacket.jpg</imageUrl>
+        <name>Columbia Cascade Ridge Bonded Softshell Jacket</name>
+        <price>59</price>
+		<description>60% Cotton + 30% Polyester + 10% Nylon</description>
+		<display_under>T Shirts</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Longbo watch.jpg</aimageUrl>
+				<aname>Longbo watch</aname>
+				<aId>S2221</aId>
+				<aprice>19</aprice>
+				<adescription>3 ATM Waterproof for normally hand</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Van Heusen handkercheif.jpg</aimageUrl>
+				<aname>Van Heusen handkercheif</aname>
+				<aId>S2222</aId>
+				<aprice>4</aprice>
+				<adescription>Machine Wash, Tumble Dry</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Nike cap.jpg</aimageUrl>
+				<aname>Nike cap</aname>
+				<aId>S2223</aId>
+				<aprice>13</aprice>
+				<adescription>One hand quick-adjust snagless closure</adescription>
+			</accessory>
+		</accessories>
+	</product>
+	<product id="SMP92">
+        <imageUrl>images/H2H casual slim fit t-shirt.jpg</imageUrl>
+        <name>H2H casual slim fit t-shirt</name>
+        <price>29</price>
+		<description>This T-shirt is a fashion basic thanks to the contrast colored raglan sleeves. The Henley style round neckline includes a three-button placket.</description>
+		<display_under>T Shirts</display_under>
+		<discounAmt>2.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Longbo watch.jpg</aimageUrl>
+				<aname>Longbo watch</aname>
+				<aId>S2221</aId>
+				<aprice>19</aprice>
+				<adescription>3 ATM Waterproof for normally hand</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Van Heusen handkercheif.jpg</aimageUrl>
+				<aname>Van Heusen handkercheif</aname>
+				<aId>S2222</aId>
+				<aprice>4</aprice>
+				<adescription>Machine Wash, Tumble Dry</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Nike cap.jpg</aimageUrl>
+				<aname>Nike cap</aname>
+				<aId>S2223</aId>
+				<aprice>13</aprice>
+				<adescription>One hand quick-adjust snagless closure</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMP93">
+        <imageUrl>images/Yong Horse t-shirt.jpg</imageUrl>
+        <name>Yong Horse t-shirt</name>
+        <price>10</price>
+		<description>The Material is Thin . Soft Touch and Comfort . With Elasticity</description>
+		<display_under>T Shirts</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Longbo watch.jpg</aimageUrl>
+				<aname>Longbo watch</aname>
+				<aId>S2221</aId>
+				<aprice>19</aprice>
+				<adescription>3 ATM Waterproof for normally hand</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Van Heusen handkercheif.jpg</aimageUrl>
+				<aname>Van Heusen handkercheif</aname>
+				<aId>S2222</aId>
+				<aprice>4</aprice>
+				<adescription>Machine Wash, Tumble Dry</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Nike cap.jpg</aimageUrl>
+				<aname>Nike cap</aname>
+				<aId>S2223</aId>
+				<aprice>13</aprice>
+				<adescription>One hand quick-adjust snagless closure</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMP94">
+        <imageUrl>images/Under Armour t-shirt.jpg</imageUrl>
+        <name>Under Armour t-shirt</name>
+        <price>11</price>
+		<description>UA Tech fabric is quick-drying, ultra-soft and has a more natural feel</description>
+		<display_under>T Shirts</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Longbo watch.jpg</aimageUrl>
+				<aname>Longbo watch</aname>
+				<aId>S2221</aId>
+				<aprice>19</aprice>
+				<adescription>3 ATM Waterproof for normally hand</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Van Heusen handkercheif.jpg</aimageUrl>
+				<aname>Van Heusen handkercheif</aname>
+				<aId>S2222</aId>
+				<aprice>4</aprice>
+				<adescription>Machine Wash, Tumble Dry</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Nike cap.jpg</aimageUrl>
+				<aname>Nike cap</aname>
+				<aId>S2223</aId>
+				<aprice>13</aprice>
+				<adescription>One hand quick-adjust snagless closure</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMP95">
+        <imageUrl>images/Addidas t-shirt.jpg</imageUrl>
+        <name>Addidas t-shirt.jpg</name>
+        <price>29</price>
+		<description>Ribbed back panel for a snug fit</description>
+		<display_under>T Shirts</display_under>
+		<discounAmt>20.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Longbo watch.jpg</aimageUrl>
+				<aname>Longbo watch</aname>
+				<aId>S2221</aId>
+				<aprice>19</aprice>
+				<adescription>3 ATM Waterproof for normally hand</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Van Heusen handkercheif.jpg</aimageUrl>
+				<aname>Van Heusen handkercheif</aname>
+				<aId>S2222</aId>
+				<aprice>4</aprice>
+				<adescription>Machine Wash, Tumble Dry</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Nike cap.jpg</aimageUrl>
+				<aname>Nike cap</aname>
+				<aId>S2223</aId>
+				<aprice>13</aprice>
+				<adescription>One hand quick-adjust snagless closure</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMP96">
+        <imageUrl>images/Nike Men's shirt.jpg</imageUrl>
+        <name>Nike Men's shirt</name>
+        <price>15</price>
+		<description>Authentic Nike Guarantee</description>
+		<display_under>T Shirts</display_under>
+		<discounAmt>20.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Longbo watch.jpg</aimageUrl>
+				<aname>Longbo watch</aname>
+				<aId>S2221</aId>
+				<aprice>19</aprice>
+				<adescription>3 ATM Waterproof for normally hand</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Van Heusen handkercheif.jpg</aimageUrl>
+				<aname>Van Heusen handkercheif</aname>
+				<aId>S2222</aId>
+				<aprice>4</aprice>
+				<adescription>Machine Wash, Tumble Dry</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Nike cap.jpg</aimageUrl>
+				<aname>Nike cap</aname>
+				<aId>S2223</aId>
+				<aprice>13</aprice>
+				<adescription>One hand quick-adjust snagless closure</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMP97">
+        <imageUrl>images/Adidas Trefoil shirt.jpg</imageUrl>
+        <name>Adidas Trefoil shirt</name>
+        <price>29</price>
+		<description>Large trefoil logo on the front</description>
+		<display_under>T Shirts</display_under>
+		<discounAmt>20.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Longbo watch.jpg</aimageUrl>
+				<aname>Longbo watch</aname>
+				<aId>S2221</aId>
+				<aprice>19</aprice>
+				<adescription>3 ATM Waterproof for normally hand</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Van Heusen handkercheif.jpg</aimageUrl>
+				<aname>Van Heusen handkercheif</aname>
+				<aId>S2222</aId>
+				<aprice>4</aprice>
+				<adescription>Machine Wash, Tumble Dry</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Nike cap.jpg</aimageUrl>
+				<aname>Nike cap</aname>
+				<aId>S2223</aId>
+				<aprice>13</aprice>
+				<adescription>One hand quick-adjust snagless closure</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMP98">
+        <imageUrl>images/dudetees.jpg</imageUrl>
+        <name>Kaiusi neck long sleeve</name>
+        <price>17</price>
+		<description>Heather fabric:60% Polyester/40% Rayon;Solid fabric: 95% Cotton/5% Spandex</description>
+		<display_under>T Shirts</display_under>
+		<discounAmt>20.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Longbo watch.jpg</aimageUrl>
+				<aname>Longbo watch</aname>
+				<aId>S2221</aId>
+				<aprice>19</aprice>
+				<adescription>3 ATM Waterproof for normally hand</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Van Heusen handkercheif.jpg</aimageUrl>
+				<aname>Van Heusen handkercheif</aname>
+				<aId>S2222</aId>
+				<aprice>4</aprice>
+				<adescription>Machine Wash, Tumble Dry</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Nike cap.jpg</aimageUrl>
+				<aname>Nike cap</aname>
+				<aId>S2223</aId>
+				<aprice>13</aprice>
+				<adescription>One hand quick-adjust snagless closure</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMP99">
+        <imageUrl>images/Funic casual t-shirt.jpg</imageUrl>
+        <name>Funic casual t-shirt</name>
+        <price>8</price>
+		<description>100% brand new and high quality.</description>
+		<display_under>T Shirts</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Longbo watch.jpg</aimageUrl>
+				<aname>Longbo watch</aname>
+				<aId>S2221</aId>
+				<aprice>19</aprice>
+				<adescription>3 ATM Waterproof for normally hand</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Van Heusen handkercheif.jpg</aimageUrl>
+				<aname>Van Heusen handkercheif</aname>
+				<aId>S2222</aId>
+				<aprice>4</aprice>
+				<adescription>Machine Wash, Tumble Dry</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Nike cap.jpg</aimageUrl>
+				<aname>Nike cap</aname>
+				<aId>S2223</aId>
+				<aprice>13</aprice>
+				<adescription>One hand quick-adjust snagless closure</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SMP90">
+         <imageUrl>images/Puma t-shirt.jpg</imageUrl>
+        <name>Puma t-shirt</name>
+        <price>14</price>
+		<description>A classic T-shirt with short sleeve featuring printed sign off cat on sleeve and graphic at center front</description>
+		<display_under>T Shirts</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Longbo watch.jpg</aimageUrl>
+				<aname>Longbo watch</aname>
+				<aId>S2221</aId>
+				<aprice>19</aprice>
+				<adescription>3 ATM Waterproof for normally hand</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Van Heusen handkercheif.jpg</aimageUrl>
+				<aname>Van Heusen handkercheif</aname>
+				<aId>S2222</aId>
+				<aprice>4</aprice>
+				<adescription>Machine Wash, Tumble Dry</adescription>
+			</accessory>
+            <accessory>
+				<aimageUrl>images/Nike cap.jpg</aimageUrl>
+				<aname>Nike cap</aname>
+				<aId>S2223</aId>
+				<aprice>13</aprice>
+				<adescription>One hand quick-adjust snagless closure</adescription>
+			</accessory>
+        </accessories>
+    </product>
+
+	<product id="SPE91">
+        <imageUrl>images/Hotouch Slim Fit Shirt.jpg</imageUrl>
+        <name>Hotouch Slim Fit Shirt.jpg</name>
+        <price>25</price>
+		<description>This cotton button down shirt is not only comfortable, but it is also simple to wash.</description>
+		<display_under>Shirt</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+            <accessory>
+				<aimageUrl>images/Xipai shoes.jpg</aimageUrl>
+				<aname>Xipai shoes</aname>
+				<aId>T2221</aId>
+				<aprice>29</aprice>
+				<adescription>Great for formal or semi-formal occasions</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Alexander Tie.jpg</aimageUrl>
+                <aname>Alexander Tie</aname>
+				<aId>T2222</aId>
+				<aprice>29</aprice>
+				<adescription>Luxurious satin finish give this tie a slight sheen</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Jstyle cuffs.jpg</aimageUrl>
+                <aname>Jstyle cuffs</aname>
+				<aId>T2223</aId>
+				<aprice>29</aprice>
+				<adescription>Thick Strengthening Clasps, Sturdy and Durable, Also Convenient to Use.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SPE92">
+        <imageUrl>images/Neleus Sleeve Shirt.jpg</imageUrl>
+        <name>Neleus Sleeve Shirt</name>
+        <price>19</price>
+		<description>100% High-grade Cotton Fabrics: Good capability of tenderness, air permeability and moisture absorption feels soft and comfy</description>
+		<display_under>Shirt</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Xipai shoes.jpg</aimageUrl>
+				<aname>Xipai shoes</aname>
+				<aId>T2221</aId>
+				<aprice>29</aprice>
+				<adescription>Great for formal or semi-formal occasions</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Alexander Tie.jpg</aimageUrl>
+                <aname>Alexander Tie</aname>
+				<aId>T2222</aId>
+				<aprice>29</aprice>
+				<adescription>Luxurious satin finish give this tie a slight sheen</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Jstyle cuffs.jpg</aimageUrl>
+                <aname>Jstyle cuffs</aname>
+				<aId>T2223</aId>
+				<aprice>29</aprice>
+				<adescription>Thick Strengthening Clasps, Sturdy and Durable, Also Convenient to Use.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SPE93">
+        <imageUrl>images/Localmode coton sleeve shirt.jpg</imageUrl>
+        <name>Localmode coton sleeve shirt</name>
+        <price>24</price>
+		<description>100% High-grade Cotton Fabrics: Good capability of tenderness, air permeability and moisture absorption feels soft and comfy.</description>
+		<display_under>Shirt</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Xipai shoes.jpg</aimageUrl>
+				<aname>Xipai shoes</aname>
+				<aId>T2221</aId>
+				<aprice>29</aprice>
+				<adescription>Great for formal or semi-formal occasions</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Alexander Tie.jpg</aimageUrl>
+                <aname>Alexander Tie</aname>
+				<aId>T2222</aId>
+				<aprice>29</aprice>
+				<adescription>Luxurious satin finish give this tie a slight sheen</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Jstyle cuffs.jpg</aimageUrl>
+                <aname>Jstyle cuffs</aname>
+				<aId>T2223</aId>
+				<aprice>29</aprice>
+				<adescription>Thick Strengthening Clasps, Sturdy and Durable, Also Convenient to Use.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SPE94">
+        <imageUrl>images/Men's Dress Shirts.jpg</imageUrl>
+        <name>Men's Dress Shirts</name>
+        <price>29</price>
+		<description>Material:Cotton Blend;Asian Size</description>
+		<display_under>Shirt</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Xipai shoes.jpg</aimageUrl>
+				<aname>Xipai shoes</aname>
+				<aId>T2221</aId>
+				<aprice>29</aprice>
+				<adescription>Great for formal or semi-formal occasions</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Alexander Tie.jpg</aimageUrl>
+                <aname>Alexander Tie</aname>
+				<aId>T2222</aId>
+				<aprice>29</aprice>
+				<adescription>Luxurious satin finish give this tie a slight sheen</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Jstyle cuffs.jpg</aimageUrl>
+                <aname>Jstyle cuffs</aname>
+				<aId>T2223</aId>
+				<aprice>29</aprice>
+				<adescription>Thick Strengthening Clasps, Sturdy and Durable, Also Convenient to Use.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SPE95">
+        <imageUrl>images/Tom's ware premium shirt.jpg</imageUrl>
+        <name>Tom's ware premium shirt</name>
+        <price>25</price>
+		<description>Slim fit, fits true to size, good quality Fabric, and making style make you feel good and comfortable when wearing</description>
+		<display_under>Shirt</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Xipai shoes.jpg</aimageUrl>
+				<aname>Xipai shoes</aname>
+				<aId>T2221</aId>
+				<aprice>29</aprice>
+				<adescription>Great for formal or semi-formal occasions</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Alexander Tie.jpg</aimageUrl>
+                <aname>Alexander Tie</aname>
+				<aId>T2222</aId>
+				<aprice>29</aprice>
+				<adescription>Luxurious satin finish give this tie a slight sheen</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Jstyle cuffs.jpg</aimageUrl>
+                <aname>Jstyle cuffs</aname>
+				<aId>T2223</aId>
+				<aprice>29</aprice>
+				<adescription>Thick Strengthening Clasps, Sturdy and Durable, Also Convenient to Use.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SPE96">
+        <imageUrl>images/Oxford sleeve shirt.jpg</imageUrl>
+        <name>Oxford sleeve shirt</name>
+        <price>18</price>
+		<description>100% High-Grade Cotton Fabrics: Very Good Capability of Tenderness, Air Permeability Makes you Feel Comfortable</description>
+		<display_under>Shirt</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Xipai shoes.jpg</aimageUrl>
+				<aname>Xipai shoes</aname>
+				<aId>T2221</aId>
+				<aprice>29</aprice>
+				<adescription>Great for formal or semi-formal occasions</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Alexander Tie.jpg</aimageUrl>
+                <aname>Alexander Tie</aname>
+				<aId>T2222</aId>
+				<aprice>29</aprice>
+				<adescription>Luxurious satin finish give this tie a slight sheen</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Jstyle cuffs.jpg</aimageUrl>
+                <aname>Jstyle cuffs</aname>
+				<aId>T2223</aId>
+				<aprice>29</aprice>
+				<adescription>Thick Strengthening Clasps, Sturdy and Durable, Also Convenient to Use.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SPE97">
+        <imageUrl>images/Generic sleeve shirt.jpg</imageUrl>
+        <name>Generic sleeve shirt</name>
+        <price>9</price>
+		<description>Mens slim fit dress shirts,Great for casual, Formal, Business wear</description>
+		<display_under>Shirt</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Xipai shoes.jpg</aimageUrl>
+				<aname>Xipai shoes</aname>
+				<aId>T2221</aId>
+				<aprice>29</aprice>
+				<adescription>Great for formal or semi-formal occasions</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Alexander Tie.jpg</aimageUrl>
+                <aname>Alexander Tie</aname>
+				<aId>T2222</aId>
+				<aprice>29</aprice>
+				<adescription>Luxurious satin finish give this tie a slight sheen</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Jstyle cuffs.jpg</aimageUrl>
+                <aname>Jstyle cuffs</aname>
+				<aId>T2223</aId>
+				<aprice>29</aprice>
+				<adescription>Thick Strengthening Clasps, Sturdy and Durable, Also Convenient to Use.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SPE98">
+        <imageUrl>images/Photno sleeve shirt.jpg</imageUrl>
+        <name>Photno sleeve shirt</name>
+        <price>10</price>
+		<description>Self-Cultivation Shirt Top Blouse</description>
+		<display_under>Shirt</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Xipai shoes.jpg</aimageUrl>
+				<aname>Xipai shoes</aname>
+				<aId>T2221</aId>
+				<aprice>29</aprice>
+				<adescription>Great for formal or semi-formal occasions</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Alexander Tie.jpg</aimageUrl>
+                <aname>Alexander Tie</aname>
+				<aId>T2222</aId>
+				<aprice>29</aprice>
+				<adescription>Luxurious satin finish give this tie a slight sheen</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Jstyle cuffs.jpg</aimageUrl>
+                <aname>Jstyle cuffs</aname>
+				<aId>T2223</aId>
+				<aprice>29</aprice>
+				<adescription>Thick Strengthening Clasps, Sturdy and Durable, Also Convenient to Use.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SPE99">
+        <imageUrl>images/Dockers classic fit short.jpg</imageUrl>
+        <name>Dockers classic fit short</name>
+        <price>10</price>
+		<description>Logo-embroidered patch pocket on chest</description>
+		<display_under>Shirt</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Xipai shoes.jpg</aimageUrl>
+				<aname>Xipai shoes</aname>
+				<aId>T2221</aId>
+				<aprice>29</aprice>
+				<adescription>Great for formal or semi-formal occasions</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Alexander Tie.jpg</aimageUrl>
+                <aname>Alexander Tie</aname>
+				<aId>T2222</aId>
+				<aprice>29</aprice>
+				<adescription>Luxurious satin finish give this tie a slight sheen</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Jstyle cuffs.jpg</aimageUrl>
+                <aname>Jstyle cuffs</aname>
+				<aId>T2223</aId>
+				<aprice>29</aprice>
+				<adescription>Thick Strengthening Clasps, Sturdy and Durable, Also Convenient to Use.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+	<product id="SPE90">
+        <imageUrl>images/Inflation long sleeve shirt.jpg</imageUrl>
+        <name>Inflation long sleeve shirt</name>
+        <price>19</price>
+		<description>Collar fabric thickening design, washing 200 times without deformation. </description>
+		<display_under>Shirt</display_under>
+		<discounAmt>0.0</discounAmt>
+		<rebateAmt>0.0</rebateAmt>
+        <accessories>
+                        <accessory>
+				<aimageUrl>images/Xipai shoes.jpg</aimageUrl>
+				<aname>Xipai shoes</aname>
+				<aId>T2221</aId>
+				<aprice>29</aprice>
+				<adescription>Great for formal or semi-formal occasions</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Alexander Tie.jpg</aimageUrl>
+                <aname>Alexander Tie</aname>
+				<aId>T2222</aId>
+				<aprice>29</aprice>
+				<adescription>Luxurious satin finish give this tie a slight sheen</adescription>
+			</accessory>
+			<accessory>
+				<aimageUrl>images/Jstyle cuffs.jpg</aimageUrl>
+                <aname>Jstyle cuffs</aname>
+				<aId>T2223</aId>
+				<aprice>29</aprice>
+				<adescription>Thick Strengthening Clasps, Sturdy and Durable, Also Convenient to Use.</adescription>
+			</accessory>
+        </accessories>
+    </product>
+</ProductCatalog>

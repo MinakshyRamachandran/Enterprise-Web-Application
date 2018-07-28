@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<!--<link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' />-->
+<title>Falcon</title >
+<link rel='shortcut icon' href='images/icon.jpg'/>
+<link rel='stylesheet' href='styles.css' type='text/css' />
+</head >
+<body >
+<div id='container' >
+<header >
+<h1><a href='/'>Falcon</a></h1 >
+<h6><right>Just Get it ! Move with it !</right></h6>
+</header >
+<nav >
+<ul >
+<li  class=''><a href='home'>Home</a></li >
+<li class=''><a href='tees'>T Shirts</a></li >
+<li class=''><a href='pants'>Pants</a></li >
+<li class=''><a href='shorts'>Shorts</a></li >
+<li class=''><a href='Shirts'>Shirts</a></li >
+
+<li class=''><a href='suits'>Suit</a></li >
+
+   <li class='' ><a href='signout'>Sign Out</a></li>
+
+ <li class='' ><a href='vieworders'>View Orders</a></li>
+
+
+     </ul>
+     </nav>
+
+
+     <div id="body">
+     <section id="content">
+
+
+
+ <h2>Add New Review</h2>
+ <form action="submituserreview"  method="POST">
+ <input type="hidden" name="pageId" value="product"/>
+ <table>
+ <tr>
+ <td>
+
+ <label>Product Model Name<span style="color:red">*</span> :</label>
+ <input type="text" name="productMN" class="login-input" style="width:250px; height:25px" required/>
+
+ </td>
+ <td>
+
+ <label>Product Category<span style="color:red;">*</span> :</label>
+  <select name="productC" style="width:265px; height:35px" required>
+  <option value="">----- Please Select----</option>
+  <option value="T Shirts">T Shirts</option>
+  <option value="Shorts">Shorts</option>
+   <option value="Shirts">Shirts</option>
+   <option value="Pants">Pants</option>
+   <option value="Suits">Suits</option>
+</select>
+
+ </td>
+ </tr>
+ <tr>
+ <td>
+
+ <label>Product Price<span style="color:red">*</span> :</label>
+ <input type="text" name="productP" class="login-input" style="width:250px; height:25px" required/>
+
+ </td>
+
+ <td>
+
+ <label>Retailer Name<span style="color:red">*</span> :</label>
+ <input type="text" name="productRN" class="login-input" style="width:250px; height:25px" required/>
+
+
+ </td>
+ </tr>
+ <tr>
+ <td>
+
+ <label>Retailer Zip<span style="color:red">*</span> :</label>
+ <input type="text" name="productRZ" value="" style="width:250px; height:25px" required/>
+
+ </td>
+
+ <td>
+
+ <label>Retailer City<span style="color:red">*</span> :</label>
+ <input type="text" name="productRC" value="" style="width:250px; height:25px" required/>
+
+ </td>
+
+ </tr>
+
+ <tr>
+
+ <td>
+
+ <label>Retailer State<span style="color:red">*</span> :</label>
+ <input type="text" name="productRS" value="" style="width:250px; height:25px" required/>
+
+ </td>
+
+  <td>
+
+ <label>Product On Sale<span style="color:red">*</span> :</label>
+  <input type="radio" name="productOS" value="Yes" style="width:25px;" checked>Yes
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="radio" name="productOS" value="No"  style="width:25px;">No
+
+ </td>
+ </tr>
+
+ <tr>
+ <td>
+
+ <label>Product Manufacturer Name<span style="color:red">*</span> :</label>
+ <input type="text" name="productMrN" value="" style="width:250px; height:25px" required/>
+
+ </td>
+ <td>
+
+ <label>Manufacturer Rebate<span style="color:red">*</span> :</label>
+ <input type="radio" name="productMR" value="Yes" style="width:25px;" checked>Yes
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="radio" name="productMR" style="width:25px;" value="No">No
+
+ </td>
+ </tr>
+ <tr>
+ <td>
+
+ <label>User ID<span style="color:red">*</span> :</label>
+ <input type="text" name="productRvU" value="" style="width:250px; height:25px" required/>
+
+ </td>
+ <td>
+
+ <label>Age<span style="color:red">*</span> :</label>
+ <input type="text" name="productRvA" value="" style="width:250px; height:25px" required/>
+
+ </td>
+ </tr>
+ <tr>
+ <td>
+
+ <label>Gender<span style="color:red">*</span> :</label>
+  <input type="radio" name="productRvG" value="Female"  style="width:25px;" checked>Female
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="radio" name="productRvG"  style="width:25px;" value="Male">Male
+ </td>
+ <td>
+
+ <label>Occupation<span style="color:red">*</span> :</label>
+ <input type="text" name="productRvO" value="" style="width:250px; height:25px" required/>
+
+ </td>
+ </tr>
+ <tr>
+ <td>
+
+ <label>Product Rating<span style="color:red">*</span> :</label>
+ <input type="number" name="productRvR" min="1" max="5" value="" style="width:250px; height:25px" required/>
+
+
+ </td>
+ <td>
+
+ <label>Review Date<span style="color:red">*</span> :</label>
+ <input type="text" name="productRvD" value="" placeholder="mm/dd/yyyy" style="width:250px; height:25px" required/>
+
+ </td>
+ </tr>
+ <tr>
+ <td colspan="2">
+
+ <label>Subject<span style="color:red">*</span> :</label>
+ <input type="text" name="productRvS" value="" style="width:540px; height:25px" required/>
+
+
+ </td>
+ </tr>
+ <tr>
+ <td colspan="2">
+
+ <label>Review Text<span style="color:red">*</span> :</label>
+ <textarea name="productRvB" rows="8" cols="60" style="resize: none;">
+ </textarea>
+
+ </td>
+ </tr>
+ <tr>
+ <td>
+
+ <button  type="submit">Submit Review</button>
+
+ </td>
+ <td></td>
+ </tr>
+ </table>
+ </form>
+
+
+      </section>
+
+
+
+
+
+
+ <aside class='sidebar'>
+ <ul>
+ <li>
+ <h4>Products</h4>
+ <ul>
+ <li><a href='tees'>T Shirts</a></li>
+  <li><a href='pants'>Pants</a></li>
+ <li><a href='shorts'>Shorts</a></li>
+ <li><a href='Shirts'>Shirts</a></li>
+ <li><a href='suits'>Suit</a></li>
+
+ </ul>
+ </li>
+ <footer>
+ <div class='footer-content'>
+ <div class='clear'></div>
+ </div>
+ <div class='footer-bottom'>
+ <p>&copy Falcon </p>
+ </div>
+ </footer>
+
+ </div>
+ </body>
+ </html>

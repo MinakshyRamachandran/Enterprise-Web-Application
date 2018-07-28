@@ -1,0 +1,76 @@
+ <html><head >
+ <meta http-equiv='Content-Type' content='text/html; charset=utf-8' / >
+ <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' / >
+ <title>Falcon</title >
+ <link rel='shortcut icon' href='images/icon.jpg'/ >
+ <link rel='stylesheet' href='styles.css' type='text/css' / >
+ <script type="text/javascript" src="js/ajaxscript.js"></script>
+ <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="js/blowup.js"></script>
+
+ <style>
+.autosuggestion 
+input[type=text] 
+
+{
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+	font-weight: normal; color: #3399FF; 
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.autosuggestion
+input[type=text]:focus 
+{
+    width: 100%;
+}
+
+</style>
+ </head >
+ <body onload="initialize()">
+ 
+ <div id='container' >
+  <script>
+ $(document).ready(function () {
+    $("img").blowup();
+})
+</script>
+ <header >
+ <h1><a href='/'>Falcon</a></h1 >
+<h6><right>Just Get it ! Move with it !</right></h6>
+<div class="autosuggestion">
+  <form id="searchbox" action="" >
+   <input  id="search" class="ajax_input" type="text" placeholder="Search for Products here..." onkeyup="dofill(this.value)" />
+
+     <table id="complete-table" class="gridtable"></table>
+
+ <input id="submit" type="submit"  value="Go" class="gobutton"/>
+
+ </form>
+ </div>
+
+ </header >
+
+ <nav >
+
+ <ul >
+ 
+ <li  class=''><a href='home'>Home</a></li >
+ <li class=''><a href='tees'>T Shirts</a></li >
+  <li class=''><a href='pants'>Pants</a></li >
+ <li class=''><a href='shorts'>Shorts</a></li >
+ <li class=''><a href='Shirts'>Shirts</a></li >
+ <li class=''><a href='suits'>Suit</a></li >
+ <li class=''><a href='dealmatch'>Deal Matches</a></li >
+
+
+

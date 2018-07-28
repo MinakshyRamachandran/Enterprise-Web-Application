@@ -1,0 +1,456 @@
+ <html>
+	 <head >
+		 <meta http-equiv='Content-Type' content='text/html; charset=utf-8' / >
+		 <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' / >
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<!-- <script type="text/javascript" src="./js/visualization-chart-script.js"></script> -->
+		 <title>Falcon</title >
+		 <link rel='shortcut icon' href='images/icon.jpg'/ >
+		 <link rel='stylesheet' href='styles.css' type='text/css' / >
+		 <style>
+			.btn, .button {
+				border: none;
+				display: inline-block;
+				outline: 0;
+				padding: 8px 16px;
+				vertical-align: middle;
+				overflow: hidden;
+				text-decoration: none;
+				color: inherit;
+				background-color: inherit;
+				text-align: center;
+				cursor: pointer;
+				white-space: nowrap;
+				margin-left: 40px;
+			}
+			.dark-grey, .hover-dark-grey:hover, .dark-gray, .hover-dark-gray:hover {
+				color: #fff!important;
+				background-color: #616161!important;
+			}
+			.panel-group {
+				margin:2%;
+			}
+			
+			#pnlInventoryReport, #pnlSalesReport{
+				min-height: 800px;
+				max-height: 800px;
+			}
+			body {
+				margin-top:10px;				
+			}
+			.panel-heading {
+				font-weight: bolder;
+			}
+		 </style>
+		 <script type="text/javascript">
+			google.load("visualization", "1", {
+				packages: ["corechart"]
+			});
+
+			showInventoryReport = function(){
+				document.getElementById("pnlInventoryReport").classList.remove("hidden");
+				document.getElementById("pnlSalesReport").classList.add("hidden");	
+				Reports.InventoryReports.showInventoryByProduct();
+			};
+			
+			showSalesReport = function(){
+				document.getElementById("pnlInventoryReport").classList.add("hidden");
+				document.getElementById("pnlSalesReport").classList.remove("hidden");
+				Reports.SalesReports.showSalesByProduct();
+			};
+			
+			var salesData =[];
+			if(typeof(Reports) ==  "undefined")
+				Reports ={};
+				if(typeof(Reports.SalesReports) =="undefined")
+					Reports.SalesReports ={};
+				if(typeof(Reports.InventoryReports) =="undefined")
+					Reports.InventoryReports ={};	
+				Reports.InventoryReports ={
+					getInventoryDataByAjax: function(onlyOnSale){
+						if(onlyOnSale)
+							return $.ajax({
+								url:"InventoryByProductOnSale",
+								method:"GET",
+								dataType: "JSON",							
+							});
+							
+						else
+							return $.ajax({
+								url:"InventoryByProduct",
+								method:"GET",
+								dataType: "JSON",							
+							});
+					},
+				
+					showOnSaleInventoryByProduct : function(){
+						$('#productOnSaleTable tbody tr').remove();
+						Reports.InventoryReports.getInventoryDataByAjax(true).done(function(data){
+							$.each(data, function(index, row){
+								var tr = "<tr><td>"+ (index + 1) +"</td><td>"+ row.ProductName +"</td><td class='text-right'>"+ row.ProductPrice +"</td><td class='text-right'>"+ row.Stock +"</td></tr>";
+								$('#productOnSaleTable tbody').append(tr);
+							});
+						});
+					},
+					showInventoryByProduct : function(){
+						$('#inventoryTable tbody tr').remove();
+						Reports.InventoryReports.getInventoryDataByAjax(false).done(function(data){
+							$.each(data, function(index, row){
+								var tr = "<tr><td>"+ (index + 1) +"</td><td>"+ row.ProductName +"</td><td class='text-right'>"+ row.ProductPrice +"</td><td class='text-right'>"+ row.Stock +"</td></tr>";
+								$('#inventoryTable tbody').append(tr);
+							});
+						});
+					},
+					getVisualizationData :  function(inventoryData){
+						var dataArray =[],
+						data = new google.visualization.DataTable();
+						data.addColumn('string', 'ProductName');
+						//data.addColumn('number', 'ProductPrice');
+						data.addColumn('number', 'Stock');
+						$.each(inventoryData, function(index, item){
+							dataArray.push([item.ProductName,  item.Stock]);
+						});
+						data.addRows(dataArray);
+						return data;
+					},
+					showInventoryByProductChart : function(){
+						var options = Reports.SalesReports.getOptionForBarchart();
+						Reports.InventoryReports.getInventoryDataByAjax(false).done(function(data){
+							var visualizationData = Reports.InventoryReports.getVisualizationData(data);
+							var chart = new google.visualization.ColumnChart(document.getElementById('productInventoryChart'));
+							chart.draw(visualizationData, options);
+							$(window).resize(function(){
+								chart.draw(visualizationData, options);
+							});
+						});
+					}
+				}
+			Reports.SalesReports ={				
+				getDailySalesDataByAjax : function(){
+					$.ajax({
+						url:"DailySalesData",
+						method:"GET",
+						dataType: "JSON",
+						success: function(data){
+						$('#dailySalesTable tbody td').remove();
+							$.each(data, function(index, row){
+								var tr = "<tr><td>"+ (index + 1) +"</td><td>"+ row.OrderDate +"</td><td class='text-right'>"+ row.SalesAmount +"</td></tr>";
+								$('#dailySalesTable tbody').append(tr);
+							});
+							//salesData = data;
+						}						
+					});
+				},
+				getSalesDataByAjax : function(){
+					return $.ajax({
+						url:"SalesByProductData",
+						method:"GET",
+						dataType: "JSON",
+						//success: function(data){
+							//$.each(data, function(index, row){
+							//	var tr = "<tr><td>"+ (index + 1) +"</td><td>"+ row.ProductName +"</td><td>"+ row.ProductPrice +"</td><td class='text-right'>"+ row.ItemsSold +"</td></tr>";
+							//	$('#productSalesTable tbody').append(tr);
+							//});
+							//salesData = data;
+						//}
+					});
+				},
+				
+				getVisualizationData :  function(salesData){
+					var dataArray =[],
+					data = new google.visualization.DataTable();
+					data.addColumn('string', 'ProductName');
+					//data.addColumn('number', 'ProductPrice');
+					data.addColumn('number', 'ItemsSold');
+					$.each(salesData, function(index, item){
+						dataArray.push([item.ProductName,  item.ItemsSold]);
+					});
+					data.addRows(dataArray);
+					return data;
+				},
+				 getOptionForBarchart: function () {
+
+				    var options = {
+					   animation: {
+						duration: 2000,
+						easing: 'out'
+				   },
+
+				   hAxis: {
+					baselineColor: '#ccc'
+				   },
+				   vAxis: {
+					baselineColor: '#ccc',
+					gridlineColor: '#fff'
+				   },
+
+				   isStacked: false,
+				   height: 400,
+				   backgroundColor: '#fff',
+				   colors: ["#681345", "#c655d3"],
+				   fontName: 'roboto',
+				   fontSize: 12,
+				   legend: {
+					position: 'top',
+					alignment: 'end',
+					textStyle: {
+					 color: '#b3b8bc',
+					 fontName: 'roboto',
+					 fontSize: 12
+					}
+				   },
+				   tooltip: {
+					isHtml: true,
+					showColorCode: true,
+					isStacked: true
+				   }
+				  };
+				  return options;
+				},
+				showSalesByProduct : function(){
+				$('#productSalesTable tbody tr').remove();
+					Reports.SalesReports.getSalesDataByAjax().done(function(data){
+						$.each(data, function(index, row){
+							var tr = "<tr><td>"+ (index + 1) +"</td><td>"+ row.ProductName +"</td><td>"+ row.ProductPrice +"</td><td class='text-right'>"+ row.ItemsSold +"</td></tr>";
+							$('#productSalesTable tbody').append(tr);
+						});
+					});
+				},
+				
+				showSalesByProductChart : function(){
+					var options = Reports.SalesReports.getOptionForBarchart();
+					Reports.SalesReports.getSalesDataByAjax().done(function(data){
+						var visualizationData = Reports.SalesReports.getVisualizationData(data);
+						var chart = new google.visualization.ColumnChart(document.getElementById('productSalesChart'));
+						chart.draw(visualizationData, options);
+						$(window).resize(function(){
+							chart.draw(visualizationData, options);
+						});
+					});
+				}
+			}
+			
+			$(document).ready(function(){
+				showSalesReport();
+				$('#accordion #salesTable').on('show.bs.collapse', function(){
+					showSalesReport();
+				});
+				$('#accordion #salesChart').on('show.bs.collapse', function(){
+					setTimeout(Reports.SalesReports.showSalesByProductChart, 1);
+				});
+				$('#accordion #dailySales').on('show.bs.collapse', function(){
+					Reports.SalesReports.getDailySalesDataByAjax();
+				});
+				$('#inventoryAccordion #inventoryTable').on('show.bs.collapse', function(){
+					showInventoryReport();
+				});
+				$('#inventoryAccordion #inventoryChart').on('show.bs.collapse', function(){
+					setTimeout(Reports.InventoryReports.showInventoryByProductChart, 1);
+				});
+				$('#inventoryAccordion #currentlyOnSale').on('show.bs.collapse', function(){
+					Reports.InventoryReports.showOnSaleInventoryByProduct();
+				});
+			});
+		 </script>
+	 </head>
+	 
+	  <body >
+ <div id='container' >
+ <header >
+ <h1><a href='/'>Falcon</a></h1 >
+<h6><right>Just Get it ! Move with it !</right></h6>
+ </header >
+ <nav >
+ <ul >
+ <li  class=''><a href='home'>Home</a></li >
+ <li class=''><a href='tees'>T Shirts</a></li >
+  <li class=''><a href='pants'>Pants</a></li >
+ <li class=''><a href='shorts'>Shorts</a></li >
+ <li class=''><a href='Shirts'>Shirts</a></li >
+ <li class=''><a href='suits'>Suit</a></li >
+ <li class=''><div class='dropdown'><a>Management</a >
+ <div class='dropdown-content' >
+ <a href='managestore'>Add Products</a>
+ <a href='modifyproduct'>Modify Product</a>
+ <a href='deleteproduct'>Delete Product</a>
+ <a href='DataAnalytics.html'>Data Analytics</a>
+ <a href='Reports.html'>Reports</a>
+ </div>
+ </li>
+ 
+
+ </div >
+<p align="center">
+		<button class="btn hover-black dark-grey" onclick="showInventoryReport();">Inventory Report</button>
+		<button class="btn hover-black dark-grey" onclick="showSalesReport();">Sales Report</button>
+ </p>
+ 
+		
+		<div class="panel-group">		
+			<div class="panel panel-info hidden" id="pnlInventoryReport">
+				<div class="panel-heading">Inventory Report</div>
+				<div class="panel-body">
+					<div class="panel-group" id="inventoryAccordion">						
+						<div class="panel panel-info" id="inventoryTable">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#inventoryAccordion" href="#inventoryTablebody">Inventory by Product</a>
+								</h4>								
+							</div>
+							<div class="panel-collapse collapse in" id="inventoryTablebody">
+								<div class="panel-body">
+									<table class="table table-stripped table-condensed" id="productInventoryTable">
+										<thead>
+											<tr>
+												<th>#.</th>
+												<th>Product Name</th>
+												<th class="text-right">Product Price</th>
+												<th class="text-right"># in Stock</th>
+											</tr>
+										</thead>
+										<tbody>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-info" id="inventoryChart">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#inventoryAccordion" href="#inventoryChartbody">Inventory by Product - Chart</a>
+								</h4>								
+							</div>
+							<div class="panel-collapse collapse" id="inventoryChartbody">
+								<div class="panel-body">
+									<div id="productInventoryChart"></div>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-info" id="currentlyOnSale">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#inventoryAccordion" href="#currentlyOnSalebody">Products Currenlty On Sale</a>
+								</h4>								
+							</div>
+							<div class="panel-collapse collapse" id="currentlyOnSalebody">
+								<div class="panel-body">
+									<table class="table table-stripped table-condensed" id="productOnSaleTable">
+										<thead>
+											<tr>
+												<th>#.</th>
+												<th>Product Name</th>
+												<th class="text-right">Product Price</th>
+												<th class="text-right"># in Stock</th>
+											</tr>
+										</thead>
+										<tbody>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-info" id="currentlyOnRebate">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#inventoryAccordion" href="#currentlyOnSalebody">Products Currenlty On Rebate</a>
+								</h4>								
+							</div>
+							<div class="panel-collapse collapse" id="currentlyOnSalebody">
+								<div class="panel-body">
+								<table class="table table-stripped table-condensed" id="productOnSaleTable">
+										<thead>
+											<tr>
+												<th>#.</th>
+												<th>Product Name</th>
+												<th class="text-right">Product Price</th>
+												<th class="text-right">In rebate</th>
+											</tr>
+										</thead>
+										<tbody>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+			<div class="panel panel-success" id="pnlSalesReport">
+				<div class="panel-heading">Sales Report</div>
+				<div class="panel-body">
+					<div class="panel-group" id="accordion">						
+						<div class="panel panel-info" id="salesTable">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#salesTablebody">Sales by Product Name</a>
+								</h4>								
+							</div>
+							<div class="panel-collapse collapse in" id="salesTablebody">
+								<div class="panel-body">
+									<table class="table table-stripped table-condensed" id="productSalesTable">
+										<thead>
+											<tr>
+												<th>#.</th>
+												<th>Product Name</th>
+												<th>Product Price</th>
+												<th class="text-right"># Sold</th>
+											</tr>
+										</thead>
+										<tbody>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-info" id="salesChart">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#salesChartbody">Sales by Product Name - Chart</a>
+								</h4>								
+							</div>
+							<div class="panel-collapse collapse" id="salesChartbody">
+								<div class="panel-body">
+									<div id="productSalesChart"></div>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-info" id="dailySales">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#dailySalesbody">Daily Sales Report</a>
+								</h4>								
+							</div>
+							<div class="panel-collapse collapse" id="dailySalesbody">
+								<div class="panel-body">
+									<table class="table table-stripped table-condensed" id="dailySalesTable">
+										<thead>
+											<tr>
+												<th>#.</th>
+												<th>Sales Date</th>
+												<th class="text-right">Sales Amount</th>												
+											</tr>
+										</thead>
+										<tbody>
+										</tbody>
+									</table>
+									
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+
+				</div>
+			</div>		 
+		</div>	
+		
+	</div>
+	
+	</body>
+	
+	
+ </html>
